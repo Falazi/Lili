@@ -20,7 +20,7 @@ Here are the parameters it takes:
 
 Please note that id in this function doesn't use a hashtag
 
-## `set()`
+## `setAttr()`
 
 Let's you set attributes for an element
 
@@ -33,6 +33,11 @@ example:
 ```js
 set("#btn", {"class": "important", "disabled": "true"})
 ```
+
+## `removeAttr()`
+
+Removes attributes. Works the same as `setAttr()`
+
 ## `remove()`
 
 It will remove a specified element
@@ -53,6 +58,11 @@ function enterPress(event) {
 };
 
 ```
+## `toggleClass()`
 
+Toggles a class. takes an element and a class as parameters.
 
+## `move()`
+
+Moves an element to another element. 
 
