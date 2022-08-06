@@ -23,3 +23,4 @@ Lili
 ```js
 create("p", "Hello there", "greeting", "card")
 ```
+If you'd like to see a working example of Lili, then check out the [Lili todo app](https://github.com/Falazi/Lili-Todo-App)
