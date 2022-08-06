@@ -36,13 +36,17 @@ ele.setAttribute(id, value)
 // the format is like this
 // set("#cool", { "type": "number", "class": "my-class" });
 
-function set(el, options) {
+function setAttr(el, options) {
     let ele = select(el)
+    setAttrutil(ele, options)
+}
+
+function setAttrutil(ele, options) {
     Object.keys(options).forEach(function (attr) {
         ele.setAttribute(attr, options[attr]);
     })
-}
 
+}
 
 
 // usage of onEvent Function
@@ -79,3 +83,14 @@ function remove(el) {
     ele.remove()
 }
 
+
+function toggleClass(el, cless) {
+    let ele = select(el)
+    ele.classList.toggle(cless);
+}
+
+function move(el, to) {
+    let ele = select(el)
+    let toto = select(to)
+    toto.appendChild(ele)
+}
