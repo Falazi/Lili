@@ -27,5 +27,5 @@ parameters:
 example:
 
 ```js
-set("#btn", {"class": "", "disabled": "true"})
+set("#btn", {"class": "important", "disabled": "true"})
 ```
