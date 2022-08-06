@@ -26,6 +26,6 @@ parameters:
 
 example:
 
-``js
+```js
 set("#btn", {"class": "", "disabled": "true"})
 ```
