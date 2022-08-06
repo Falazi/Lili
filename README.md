@@ -1,5 +1,5 @@
 # Lili
-Lili (pronounced lee-lee) is a javascript library that makes dom manipulation easy
+Lili (pronounced lee-lee) is a javascript library that makes dom manipulation less tedious
 
 It features many useful functions, such as `select()`, which is syntactic sugar for `document.querySelector()`. 
 
