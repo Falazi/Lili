@@ -6,7 +6,11 @@ This can select a element by type,  id, or class, but only one. If you want more
 
 ## `selectAll()`
 
-Like `select()`, but let's you select multiple elements
+Like `select()`, but lets you select multiple elements
+
+## `selectId()`
+
+If you don't like putting a hashtag when you use select for id, then you should use this function
 
 ## `create()`
 This will let you create an element.
