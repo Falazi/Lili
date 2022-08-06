@@ -1,0 +1,2 @@
+- `move()` function. it will move an element to another element. the parameters will be in that order
+- `toggleClass()` function. It will toggle a class. It will take an element then the class to be toggled.
