@@ -33,3 +33,26 @@ example:
 ```js
 set("#btn", {"class": "important", "disabled": "true"})
 ```
+## `remove()`
+
+It will remove a specified element
+
+## `onEvent()`
+
+It will let you create an event listener.
+
+Here's an example
+
+```js
+onEvent("#input", "keyup", enterPress)
+
+function enterPress(event) {
+    if (event.keyCode === 13) {
+        addTodo()
+    }
+};
+
+```
+
+
+
