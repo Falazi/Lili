@@ -18,3 +18,14 @@ Please note that id in this function doesn't use a hashtag
 
 ## `set()`
 
+Let's you set attributes for an element
+
+parameters:
+
+`element, a javascript object containing the attributes`
+
+example:
+
+``js
+set("#btn", {"class": "", "disabled": "true"})
+```
