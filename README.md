@@ -29,7 +29,15 @@ For documentation, see [doc.md](doc.md)
 
 If you'd like to see a working example of Lili, then check out the [Lili todo app](https://github.com/Falazi/Lili-Todo-App)
 
-## CDN
 
+
+
+## How to use
+
+Just put it in a script tag inside the head and put a `defer` tag.
+
+Use either the lili.js from this page or use the cdn
 https://cdn.jsdelivr.net/gh/Falazi/Lili@main/lili.min.js
+
+
 
