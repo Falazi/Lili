@@ -39,5 +39,8 @@ Just put it in a script tag and put a `defer` tag.
 Use either the lili.js from this page or use the cdn
 https://cdn.jsdelivr.net/gh/Falazi/Lili@main/lili.min.js
 
+You should use a specific version, like this
+https://cdn.jsdelivr.net/gh/Falazi/Lili@v0.11-alpha/lili.min.js
 
 
+@version
