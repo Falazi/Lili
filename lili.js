@@ -20,6 +20,7 @@ const select = document.querySelector.bind(document);
 
 const selectId = document.getElementById.bind(document)
 
+
 // selects every element that matches
 const selectAll = document.querySelectorAll.bind(document)
 
@@ -37,8 +38,7 @@ ele.setAttribute(id, value)
 // set("#cool", { "type": "number", "class": "my-class" });
 
 function setAttr(el, options) {
-    let ele = select(el)
-    setAttrutil(ele, options)
+    setAttrutil(select(el), options)
 }
 
 function setAttrutil(ele, options) {
@@ -79,18 +79,42 @@ function onEvent(el, eventt, func) {
 }
 
 function remove(el) {
-    const ele = select(el)
-    ele.remove()
+    select(el).remove()
 }
 
 
 function toggleClass(el, cless) {
-    let ele = select(el)
-    ele.classList.toggle(cless);
+    select(el).classList.toggle(cless);
 }
 
 function move(el, to) {
-    let ele = select(el)
+    select(to).appendChild(select(el))
+}
+
+function moveAbove(el, to) {
     let toto = select(to)
-    toto.appendChild(ele)
+
+    // Get the reference element
+    let ele = select(el)
+    // Get the parent element
+    let parentDiv = ele.parentNode
+
+    // Insert the new element into before sp2
+    parentDiv.insertBefore(ele, toto)
+
+}
+
+// should make moveBelow() too
+
+function addClass(el, cless) {
+    select(el).classList.add(cless);
+}
+
+function removeClass(el, cless) {
+    select(el).classList.remove(cless)
+}
+
+
+function getText(el, text) {
+    return document.querySelector(el).innerText()
 }
