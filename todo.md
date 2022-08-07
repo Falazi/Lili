@@ -1,4 +1,1 @@
-
-a
-a
-a
+- [ ] Upload non-minimized library. Stop trying to use GitHub actions to minimize the code it clearly sucks
