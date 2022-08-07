@@ -3,8 +3,6 @@ Lili (pronounced lee-lee) is a javascript library that makes dom manipulation le
 
 It features many useful functions, such as `select()`, which is syntactic sugar for `document.querySelector()`. 
 
-When minified and gzipped, this library is less than 600b
-
 There is also the `create()` function, which will let you make an element, give it text, give it an id, append it to another element, and give it a class, all in one function!
 
 Here's an example, let's create a paragraph, give it the text "Hello there", set it's id to `greeting` then append it to an element with the id "card"
