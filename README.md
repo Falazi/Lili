@@ -40,3 +40,4 @@ https://cdn.jsdelivr.net/gh/Falazi/Lili@main/lili.min.js
 You should use a specific version, like this
 https://cdn.jsdelivr.net/gh/Falazi/Lili@v0.11-alpha/lili.min.js
 
+Currently when it is minfied it is 1.77KB
